@@ -1,3 +1,6 @@
+let mass = [];
+for(let i = 0; i < 1000; i++) mass[i] = Math.floor(Math.random() * 100);
+
 function mergeSort(array) {
     if(array.length < 2) return array
 
