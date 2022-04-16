@@ -15,7 +15,7 @@ function mergeSort(array) {
 function merge(left, right) {
     const result = [];
 
-    while(left.legnth && right.length) {
+    while(left.length && right.length) {
         if(left[0] < right[0]) {
             result.push(left.shift())
         } else {
